@@ -25,23 +25,10 @@ yarn add --dev xml-conditional-compile
 
 This library serves as the core library and provides APIs in pure functional form. It can be used in extensions or plugins of various building tools to help complete conditional compilation.
 
-```html
-<!DOCTYPE html>
-<html>
+```js
+import htmlConditionalCompile from 'xml-conditional-compile'
 
-<body>
-<!-- ifdef targetPlat=WX|TT -->
-    <h1>targetPlat命中WX|TT，这一段才会保留</h1>
-    <h1>gnidaeH1</h1>
-<!-- endif -->
-<!-- ifndef targetPlat=WX|TT -->
-    <h1>targetPlat命中WX或者TT，这一段会删除</h1>
-    <h1>gnidaeH1</h1>
-<!-- endif -->
-    <p>My first paragraph.</p>
-</body>
-
-</html>
+const newHtmlStr = htmlConditionalCompile(originalHtmlStr)
 ```
 
 ### Coding with Conditional Compilation

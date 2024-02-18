@@ -1,6 +1,6 @@
 {
   "name": "xml-conditional-compile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "xml conditional compile lib",
   "type": "module",
   "scripts": {

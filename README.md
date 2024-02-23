@@ -26,9 +26,9 @@ yarn add --dev xml-conditional-compile
 This library serves as the core library and provides APIs in pure functional form. It can be used in extensions or plugins of various building tools to help complete conditional compilation.
 
 ```js
-import htmlConditionalCompile from 'xml-conditional-compile'
+import xmlConditionalCompile from 'xml-conditional-compile'
 
-const newHtmlStr = htmlConditionalCompile(originalHtmlStr)
+const newHtmlStr = xmlConditionalCompile(originalHtmlStr)
 ```
 
 ### Coding with Conditional Compilation
